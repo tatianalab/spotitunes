@@ -1,4 +1,4 @@
-const clientId = 'ae456467a84b4ac79d9ff9c6f071f44d';
+const clientId = process.env.REACT_APP_ClientId;
 const redirectUri = 'http://spotitunes.surge.sh/';
 
 let accessToken;
@@ -58,7 +58,7 @@ const Spotify = {
     const headers = {Authorization: `Bearer ${accessToken}`};
     let userId;
 
-    return fetch("https://apo.spotify.com/v1/me", {headers:headers})
+    return fetch("https://api.spotify.com/v1/me", {headers:headers})
       .then(response => response.json())
       .then(jsonResponse => {
         userId = jsonResponse.id;
