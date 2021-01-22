@@ -10,16 +10,13 @@ html {
 
 h1 {
   padding: .77rem 0;
-  background-color: #f29422;
+  background-color: #FF9503;
   text-align: center;
   font-family: 'Permanent Marker', cursive;
   font-size: 3rem;
   color: #fff;
 }
 
-h1 .highlight {
-  color: #de4559;
-}
 
 h2 {
   font-family: 'Permanent Marker', cursive;

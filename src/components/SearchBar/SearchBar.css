@@ -12,7 +12,7 @@
   border: 1px solid #fff;
   border-radius: 3px;
   margin-bottom: 2.22rem;
-  color: #f29422;
+  color: #FF9503;
   text-align: center;
   font-size: 1rem;
 }
@@ -29,12 +29,21 @@
   background-color: #69a397;
   text-align: center;
   font-size: .833rem;
-  transition: background-color .25s;
+  transition: .25s;
   border: 0px;
   color: #fff;
   font-weight: 400;
+  outline:none;
 }
 
 .SearchButton:hover {
   background-color: #de4559;
 }
+
+.SearchButton:focus{
+  box-shadow: 0 0 0 2px rgba(222, 69, 89, 0.5);
+  transform: scale(1.08);
+}
+
+
+

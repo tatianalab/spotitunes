@@ -1,0 +1,26 @@
+.header {
+  background-color: #FF9503;
+  display:flex;
+  justify-content: center;
+}
+
+
+.header h1 {
+  padding: .77rem 0;
+  text-align: center;
+  font-family: 'Permanent Marker', cursive;
+  font-size: 3rem;
+  color: #fff;
+}
+
+.header h1 .highlight {
+  color: #de4559;
+}
+
+.header img{
+  /*padding: .77rem 0;*/
+  height:5rem;
+  max-width:100%;
+  display:block;
+  margin-right:1rem;
+}

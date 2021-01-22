@@ -4,7 +4,7 @@ import './App.css';
 import SearchBar from '../SearchBar/SearchBar'
 import SearchResults from '../SearchResults/SearchResults'
 import Playlist from '../Playlist/Playlist'
-import tracksdata from './data.js'
+import Header from '../Header/Header'
 import Spotify from '../../util/Spotify'
 
 class App extends React.Component {
@@ -64,7 +64,7 @@ class App extends React.Component {
   render(){
     return (
       <div>
-        <h1>Spoti<span className="highlight">Tunes</span></h1>
+        <Header />
         <div className="App">
           <SearchBar onSearch={this.search} />
         <div className="App-playlist">
